@@ -40,6 +40,6 @@ def dir_listing():
 			if hex_hash in hash_list:
 				match_count = match_count + 1
 			file_count = file_count + 1
-	print "There where", match_count, "files matching, out of", file_count, "files"
+	print "There were", match_count, "files matching, out of", file_count, "files"
 	
 dir_listing()
